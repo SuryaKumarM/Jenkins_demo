@@ -5,5 +5,6 @@ public class ClientNotFound extends RuntimeException {
 
 	public ClientNotFound(String consumer){
 		super("Given consumer is not available");
+		
 	}
 }
